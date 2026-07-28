@@ -3,3 +3,6 @@ openai
 anthropic
 python-dotenv
 requests
+langgraph
+langchain-core
+streamlit

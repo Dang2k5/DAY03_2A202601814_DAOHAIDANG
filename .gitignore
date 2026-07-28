@@ -5,3 +5,14 @@ __pycache__/
 .venv/
 env/
 venv/
+
+# Database sinh tự động (chạy `python src/database.py` để tạo lại)
+data/*.db
+data/*.db-journal
+
+# Ảnh hóa đơn thật là PII — TUYỆT ĐỐI không commit
+data/invoices/*
+!data/invoices/README.md
+
+# Log trace sinh ra khi chạy
+docs/trace_run_log.md
